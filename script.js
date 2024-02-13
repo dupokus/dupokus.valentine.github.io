@@ -70,6 +70,8 @@ function yesButton() {
     const noSound = document.getElementById('noSound');
     noSound.pause();
 
+    noCaption.style.display = 'none';
+
     const yesCaption = document.getElementById('yesCaption');
     yesCaption.style.display = 'block';
 
